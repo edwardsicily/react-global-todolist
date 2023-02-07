@@ -1,0 +1,19 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+  .todo-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    i {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+}
