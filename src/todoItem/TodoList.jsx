@@ -10,10 +10,13 @@ function TodoList() {
   const { state } = useContext(AppContext);
 
   return (
-    <div className="todo-list">
-      {state.map((todo) => {
-        return <TodoItem data={todo} />;
-      })}
+    <div className="todo-wrapper">
+      <div className="todo-list">
+        <h3>Your Todos</h3>
+        {state.map((todo) => {
+          return <TodoItem data={todo} />;
+        })}
+      </div>
     </div>
   );
 }
