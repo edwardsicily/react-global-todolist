@@ -17,9 +17,7 @@ function App() {
     <AppContext.Provider value={{ state, dispatch }}>
       <div className="App">
         <Input />
-        <div className="todo-wrapper">
-          <TodoList />
-        </div>
+        <TodoList />
       </div>
     </AppContext.Provider>
   );
